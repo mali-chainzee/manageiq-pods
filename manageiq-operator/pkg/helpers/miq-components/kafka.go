@@ -317,5 +317,7 @@ func ZookeeperDeployment(cr *miqv1alpha1.ManageIQ) (*appsv1.Deployment, error) {
 			},
 		},
 	}
+
+
 	return deployment, nil
 }
